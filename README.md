@@ -1,6 +1,6 @@
 # Demonstração de Ataques de Phishing com Kali Linux e Setoolkit
 
-
+Este projeto demonstra como configurar um ataque de phishing usando Kali Linux e Setoolkit para fins educacionais. Ele destaca a importância da segurança digital ao simular técnicas de engenharia social. O objetivo é conscientizar sobre vulnerabilidades e incentivar o uso de boas práticas para proteger informações pessoais e corporativas contra ataques cibernéticos.
 
 
 ---
