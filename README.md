@@ -1,5 +1,7 @@
 # cibersecurity-desafio-phishing
 
-Ferramentas
-Kali Linux
-setoolkit
+Ferramentas:
+
+-Kali Linux
+
+-setoolkit
