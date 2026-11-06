@@ -1,53 +1,30 @@
-# Demonstração de Ataques de Phishing com Kali Linux e Setoolkit
+# Estudo de Phishing e Engenharia Social
 
-Este projeto demonstra como configurar um ataque de phishing usando Kali Linux e Setoolkit para fins educacionais. Ele destaca a importância da segurança digital ao simular técnicas de engenharia social. O objetivo é conscientizar sobre vulnerabilidades e incentivar o uso de boas práticas para proteger informações pessoais e corporativas contra ataques cibernéticos.
+Repositório de estudo sobre phishing e engenharia social, com foco em conscientização, identificação de sinais de fraude e prevenção.
 
+## Objetivo
+Compreender como mensagens e páginas fraudulentas tentam induzir pessoas a compartilhar informações sensíveis e documentar medidas de proteção para usuários e organizações.
 
----
+## Tópicos de estudo
+- Características comuns de mensagens de phishing.
+- Sinais de páginas falsas e domínios suspeitos.
+- Riscos de engenharia social.
+- Boas práticas de autenticação e proteção de contas.
+- Como reportar mensagens e páginas suspeitas.
 
-## 📋 Descrição
+## Ferramentas e ambiente
+O desafio foi desenvolvido no contexto de estudos de segurança da informação e utiliza referências a Kali Linux e ferramentas de laboratório.
 
-Este repositório contém um exemplo prático de configuração de um ataque de phishing usando o **Kali Linux** e a ferramenta **Setoolkit**. O objetivo é demonstrar como ataques de engenharia social podem ocorrer e destacar a importância de medidas preventivas para proteger dados pessoais e corporativos.
+## Uso ético e seguro
+Qualquer simulação deve ocorrer somente em ambiente isolado, com dados fictícios e autorização explícita dos participantes. Não colete, armazene ou compartilhe credenciais reais. Não direcione testes a serviços, contas ou pessoas sem autorização.
 
----
+Esta documentação prioriza a perspectiva defensiva e não inclui instruções para capturar credenciais ou clonar páginas de serviços reais.
 
-## 🔧 Ferramentas Utilizadas
+## Aprendizados
+- Reconhecimento de técnicas de engenharia social.
+- Importância da autenticação multifator.
+- Verificação de URLs e remetentes.
+- Conscientização e resposta a incidentes.
 
-- **Kali Linux:** Sistema operacional focado em testes de segurança.
-- **Setoolkit (Social-Engineering Toolkit):** Ferramenta para ataques de engenharia social.
-
----
-
-## 🛠️ Configuração do Phishing no Kali Linux
-
-1. **Acesso como root:**
-   ```bash
-   sudo su
-## Iniciando o Setoolkit:
-
-bash
-Copiar código
-setoolkit
-Selecionando o tipo de ataque:
-
-Escolha a opção: Social-Engineering Attacks.
-Definindo o vetor de ataque:
-
-Opção: Web Site Attack Vectors.
-Método de ataque:
-
-Escolha: Credential Harvester Attack Method.
-Clonando a página:
-
-Use a opção: Site Cloner.
-URL alvo: http://www.facebook.com.
-Obtendo o IP da máquina:
-
-Comando:
-bash
-Copiar código
-ifconfig
-
-
-POSSIBLE USERNAME FIELD FOUND: email=***@gmail.com
-POSSIBLE PASSWORD FIELD FOUND: pass=passwd123
+## Autoria
+Desenvolvido por [Yara Mendes](https://github.com/yamendes05).
